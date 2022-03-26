@@ -102,25 +102,61 @@ nav p {
   text-align: center;
 }
 
-@media only screen and (max-width: 800px) {
-  .journal {
-    width: 90%;
-    margin: auto;
+@media only screen and (max-width: 700px) {
+  * {
+    font-size: 25px;
   }
 
-  .item {
-    width: 250px;
-  }
-}
-
-@media only screen and (min-width: 800px) {
   .journal {
     width: 80%;
     margin: auto;
   }
 
   .evidencia {
+    width: 100%;
+  }
+
+  .item {
+    width: 100%;
+  }
+
+  .sidebar-info {
+    width: 80%;
+    height: fit-content;
+    margin: 2% auto;
+  }
+
+  .sidebar-info p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  * {
+    font-size: 25px;
+  }
+
+  .journal {
+    width: 70%;
+    margin: auto;
+  }
+
+  .evidencia {
+    width: 80%;
+  }
+
+  .item {
     width: 40%;
+  }
+
+  .sidebar-info {
+    width: 80%;
+    height: fit-content;
+    margin: 2% auto;
+  }
+
+  .sidebar-info p {
+    font-size: 20px;
   }
 }
 
@@ -131,5 +167,9 @@ nav p {
   }
   .evidencia {
     width: 40%;
+  }
+
+  .item {
+    width: 30%;
   }
 }

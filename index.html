@@ -1,103 +1,133 @@
 <html>
   <head>
+    <title>Phasmophobia Tool</title>
     <link rel="stylesheet" href="style.css" />
   </head>
 
+  <nav>
+    <p>Phasmophobia Tool</p>
+  </nav>
   <body>
-    <div class="evidencias disable-select flex flex-wrap">
-      <div class="evidencia">
-        <p id="emf" onclick="mudarEvidencia('emf')">☐ EMF 5</p>
+    <div class="journal">
+      <div class="evidencias disable-select flex flex-wrap">
+        <div class="evidencia">
+          <p id="emf" onclick="mudarEvidencia('emf')">☐ EMF 5</p>
+        </div>
+        <div class="evidencia">
+          <p id="dots" onclick="mudarEvidencia('dots')">☐ D.O.T.S</p>
+        </div>
+        <div class="evidencia">
+          <p id="impressao" onclick="mudarEvidencia('impressao')">
+            ☐ Impressão Digital
+          </p>
+        </div>
+        <div class="evidencia">
+          <p id="orb" onclick="mudarEvidencia('orb')">☐ Orbe Fantasma</p>
+        </div>
+        <div class="evidencia">
+          <p id="escrita" onclick="mudarEvidencia('escrita')">
+            ☐ Escrita Fantasma
+          </p>
+        </div>
+        <div class="evidencia">
+          <p id="spirit" onclick="mudarEvidencia('spirit')">☐ Spirit Box</p>
+        </div>
+        <div class="evidencia">
+          <p id="temp" onclick="mudarEvidencia('temp')">☐ Temperatura Baixa</p>
+        </div>
       </div>
-      <div class="evidencia">
-        <p id="dots" onclick="mudarEvidencia('dots')">☐ D.O.T.S</p>
-      </div>
-      <div class="evidencia">
-        <p id="impressao" onclick="mudarEvidencia('impressao')">
-          ☐ Impressão Digital
-        </p>
-      </div>
-      <div class="evidencia">
-        <p id="orb" onclick="mudarEvidencia('orb')">☐ Orbe Fantasma</p>
-      </div>
-      <div class="evidencia">
-        <p id="escrita" onclick="mudarEvidencia('escrita')">
-          ☐ Escrita Fantasma
-        </p>
-      </div>
-      <div class="evidencia">
-        <p id="spirit" onclick="mudarEvidencia('spirit')">☐ Spirit Box</p>
-      </div>
-      <div class="evidencia">
-        <p id="temp" onclick="mudarEvidencia('temp')">☐ Temperatura Baixa</p>
-      </div>
-    </div>
-    <br /><br />
-    <div class="fantasmas flex flex-wrap">
-      <div class="item emf escrita spirit">
-        <p>Spirit</p>
-      </div>
-      <div class="item emf spirit dots">
-        <p>Wraith</p>
-      </div>
-      <div class="item spirit impressao dots">
-        <p>Phantom</p>
-      </div>
-      <div class="item spirit impressao escrita">
-        <p>Poltergeist</p>
-      </div>
-      <div class="item orb impressao dots">
-        <p>Banshee</p>
-      </div>
-      <div class="item emf impressao temp">
-        <p>Jinn</p>
-      </div>
-      <div class="item orb spirit escrita">
-        <p>Mare</p>
-      </div>
-      <div class="item orb escrita temp">
-        <p>Revenant</p>
-      </div>
-      <div class="item emf temp escrita">
-        <p>Shade</p>
-      </div>
-      <div class="item escrita impressao temp">
-        <p>Demon</p>
-      </div>
-      <div class="item orb temp dots">
-        <p>Yurei</p>
-      </div>
-      <div class="item emf temp dots">
-        <p>Oni</p>
-      </div>
-      <div class="item orb dots spirit">
-        <p>Yokai</p>
-      </div>
-      <div class="item orb impressao temp">
-        <p>Hantu</p>
-      </div>
-      <div class="item emf impressao dots">
-        <p>Goryo</p>
-      </div>
-      <div class="item emf impressao escrita">
-        <p>Myling</p>
-      </div>
-      <div class="item orb temp spirit">
-        <p>Onryo</p>
-      </div>
-      <div class="item emf temp spirit">
-        <p>The Twins</p>
-      </div>
-      <div class="item orb emf dots">
-        <p>Raiju</p>
-      </div>
-      <div class="item orb impressao emf">
-        <p>Obake</p>
-      </div>
-      <div class="item temp impressao spirit">
-        <p>The Mimic</p>
+      <br /><br />
+      <div class="fantasmas flex flex-wrap">
+        <div
+          onclick="mostrarDescricao('spirit')"
+          class="item emf escrita spirit"
+        >
+          <p>Spirit</p>
+        </div>
+        <div class="item emf spirit dots">
+          <p>Wraith</p>
+        </div>
+        <div class="item spirit impressao dots">
+          <p>Phantom</p>
+        </div>
+        <div class="item spirit impressao escrita">
+          <p>Poltergeist</p>
+        </div>
+        <div class="item orb impressao dots">
+          <p>Banshee</p>
+        </div>
+        <div class="item emf impressao temp">
+          <p>Jinn</p>
+        </div>
+        <div class="item orb spirit escrita">
+          <p>Mare</p>
+        </div>
+        <div class="item orb escrita temp">
+          <p>Revenant</p>
+        </div>
+        <div class="item emf temp escrita">
+          <p>Shade</p>
+        </div>
+        <div class="item escrita impressao temp">
+          <p>Demon</p>
+        </div>
+        <div class="item orb temp dots">
+          <p>Yurei</p>
+        </div>
+        <div class="item emf temp dots">
+          <p>Oni</p>
+        </div>
+        <div class="item orb dots spirit">
+          <p>Yokai</p>
+        </div>
+        <div class="item orb impressao temp">
+          <p>Hantu</p>
+        </div>
+        <div class="item emf impressao dots">
+          <p>Goryo</p>
+        </div>
+        <div class="item emf impressao escrita">
+          <p>Myling</p>
+        </div>
+        <div class="item orb temp spirit">
+          <p>Onryo</p>
+        </div>
+        <div class="item emf temp spirit">
+          <p>The Twins</p>
+        </div>
+        <div class="item orb emf dots">
+          <p>Raiju</p>
+        </div>
+        <div class="item orb impressao emf">
+          <p>Obake</p>
+        </div>
+        <div class="item temp impressao spirit">
+          <p>The Mimic</p>
+        </div>
       </div>
     </div>
   </body>
 </html>
 
+<span id="background-descricao"></span>
+
+<div class="sidebar">
+  <div class="sidebar-info">
+    <h1 id="fant-nome">Nome</h1>
+    <h3>Descrição:</h3>
+    <p id="fant-descricao"></p>
+    <h3>Fraquezas:</h3>
+    <p id="fant-fraquezas"></p>
+    <h3>Pontos fortes:</h3>
+    <p id="fant-fortes"></p>
+    <h3>Evidências:</h3>
+    <p id="fant-evidencias"></p>
+    <br><br><br>
+    <div onclick="fecharDescricao()" id="fechar-btn">
+      <p>Fechar</p>
+    </div>
+  </div>
+</div>
+
 <script src="script.js"></script>
+<script src="descricao.js"></script>

@@ -7,11 +7,33 @@
 
 html {
   background-image: url("./img/back.png");
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-  width: 40%;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  width: 100%;
+  margin: 20px;
+  background-color: rgb(63, 63, 63);
+  color: white;
+  margin: 0;
+  padding: 20px 0px 20px 0px;
+}
+
+nav p {
+  font-size: 20px;
+  margin: 0;
+  margin-left: 30px;
+}
+
+.journal {
+  width: 50%;
   margin: auto;
 }
 
@@ -24,18 +46,90 @@ body {
 }
 
 .item {
-  width: 200px;
+  width: 25%;
   margin: 5px;
   border: 2px solid;
   text-align: center;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .evidencia {
   width: 250px;
-  height: 50px;
+  height: 40px;
   margin: 10px;
   font-size: 20px;
   cursor: pointer;
   font-weight: bolder;
+}
+
+#background-descricao {
+  display: none;
+  background-color: rgba(85, 85, 85, 0.45);
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+}
+
+.sidebar {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  right: -6000px;
+  top: 0;
+  transition-duration: 0.5s;
+}
+
+.sidebar-info {
+  height: fit-content;
+  width: 50%;
+  margin: 10% auto auto auto;
+  background-image: url("./img/papel_amassado.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.61) 0px 5px 15px;
+}
+
+#fechar-btn {
+  width: 50%;
+  margin: auto;
+  bottom: 0;
+  border: 2px solid;
+  cursor: pointer;
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .journal {
+    width: 90%;
+    margin: auto;
+  }
+
+  .item {
+    width: 250px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .journal {
+    width: 80%;
+    margin: auto;
+  }
+
+  .evidencia {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .journal {
+    width: 50%;
+    margin: auto;
+  }
+  .evidencia {
+    width: 40%;
+  }
 }

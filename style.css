@@ -6,7 +6,7 @@
 }
 
 html {
-  background-image: url("https://i.imgur.com/gZgLPcQ.png");
+  background-image: url("./img/back.png");
   font-family: "Courier New", Courier, monospace;
   padding: 0;
   margin: 0;
@@ -93,6 +93,10 @@ nav p {
   box-shadow: rgba(0, 0, 0, 0.61) 0px 5px 15px;
 }
 
+.sidebar-info h1 {
+  font-size: 50px;
+}
+
 #fechar-btn {
   width: 50%;
   margin: auto;
@@ -150,7 +154,7 @@ nav p {
   }
 
   .sidebar-info {
-    width: 80%;
+    width: 60%;
     height: fit-content;
     margin: 2% auto;
   }

@@ -165,6 +165,11 @@ function alterarFantasmas(e) {
         i.style.textDecoration = "line-through";
       }
     }
+  } else if (evidencias_marcadas.length >= 4) {
+    for (let i of items) {
+      i.style.color = "rgb(190, 167, 122)";
+      i.style.textDecoration = "line-through";
+    }
   } else {
     for (let i of items) {
       i.style.color = "black";

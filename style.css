@@ -88,9 +88,9 @@ nav p {
 }
 
 .sidebar-info {
-  height: fit-content;
   width: 50%;
-  margin: 40% auto auto auto;
+  height: 80vh;
+  margin: auto;
   background-image: url("./img/papel_amassado.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -101,17 +101,22 @@ nav p {
 
 .sidebar-info h1 {
   font-size: 50px;
+  margin: 0;
+  border-bottom: 1px solid;
+}
+
+.testando {
+  height: 600px;
+  overflow: auto;
 }
 
 #fechar-btn {
   width: 50%;
-  margin: 30px auto;
-  bottom: 0;
+  margin: auto;
   border: 2px solid;
   cursor: pointer;
   text-align: center;
 }
-
 
 @media only screen and (max-width: 700px) {
   * {
@@ -133,9 +138,8 @@ nav p {
   }
 
   .sidebar-info {
-    width: 80%;
-    height: fit-content;
-    margin: 10% auto;
+    width: 100vw;
+    height: 100vh;
   }
 
   .sidebar-info p {
@@ -159,17 +163,16 @@ nav p {
   }
 
   .item {
-    width: 40%;
+    width: 45%;
   }
 
   .sidebar-info {
     width: 60%;
-    height: fit-content;
-    margin: 5% auto;
+    margin: 2% auto;
   }
 
   .sidebar-info p {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 

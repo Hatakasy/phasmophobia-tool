@@ -54,9 +54,15 @@ nav p {
   cursor: pointer;
 }
 
+.item:hover {
+  transition-duration: 0.3s;
+  background-color: rgba(39, 39, 39, 0.349);
+  box-shadow: rgba(0, 0, 0, 0.61) 0px 5px 15px;
+}
+
 .evidencia {
-  width: 250px;
-  height: 40px;
+  width: 45%;
+  height: 30px;
   margin: 10px;
   font-size: 20px;
   cursor: pointer;
@@ -99,11 +105,19 @@ nav p {
 
 #fechar-btn {
   width: 50%;
-  margin: auto;
+  margin: 30px auto;
   bottom: 0;
   border: 2px solid;
   cursor: pointer;
   text-align: center;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 @media only screen and (max-width: 700px) {
@@ -165,12 +179,16 @@ nav p {
 }
 
 @media only screen and (min-width: 1200px) {
+  * {
+    font-size: 20px;
+  }
+
   .journal {
     width: 50%;
     margin: auto;
   }
   .evidencia {
-    width: 40%;
+    width: 45%;
   }
 
   .item {

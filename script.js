@@ -11,10 +11,10 @@ function mudarEvidencia(e) {
   if (e == "emf") {
     emf[1] += 1;
     if (emf[1] == 1) {
-      elemento.innerText = "☒ EMF 5";
+      elemento.innerText = "|x| EMF 5";
     }
     if (emf[1] == 2) {
-      elemento.innerText = "☐ EMF 5";
+      elemento.innerText = "| | EMF 5";
       elemento.style.textDecoration = "line-through";
     }
     if (emf[1] == 3) {
@@ -25,10 +25,10 @@ function mudarEvidencia(e) {
   if (e == "impressao") {
     impressao[1] += 1;
     if (impressao[1] == 1) {
-      elemento.innerText = "☒ Impressão Digital";
+      elemento.innerText = "|x| Impressão Digital";
     }
     if (impressao[1] == 2) {
-      elemento.innerText = "☐ Impressão Digital";
+      elemento.innerText = "| | Impressão Digital";
       elemento.style.textDecoration = "line-through";
     }
     if (impressao[1] == 3) {
@@ -39,10 +39,10 @@ function mudarEvidencia(e) {
   if (e == "orb") {
     orb[1] += 1;
     if (orb[1] == 1) {
-      elemento.innerText = "☒ Orbe Fantasma";
+      elemento.innerText = "|x| Orbe Fantasma";
     }
     if (orb[1] == 2) {
-      elemento.innerText = "☐ Orbe Fantasma";
+      elemento.innerText = "| | Orbe Fantasma";
       elemento.style.textDecoration = "line-through";
     }
     if (orb[1] == 3) {
@@ -53,10 +53,10 @@ function mudarEvidencia(e) {
   if (e == "escrita") {
     escrita[1] += 1;
     if (escrita[1] == 1) {
-      elemento.innerText = "☒ Escrita Fantasma";
+      elemento.innerText = "|x| Escrita Fantasma";
     }
     if (escrita[1] == 2) {
-      elemento.innerText = "☐ Escrita Fantasma";
+      elemento.innerText = "| | Escrita Fantasma";
       elemento.style.textDecoration = "line-through";
     }
     if (escrita[1] == 3) {
@@ -67,10 +67,10 @@ function mudarEvidencia(e) {
   if (e == "temp") {
     temp[1] += 1;
     if (temp[1] == 1) {
-      elemento.innerText = "☒ Temperatura Baixa";
+      elemento.innerText = "|x| Temperatura Baixa";
     }
     if (temp[1] == 2) {
-      elemento.innerText = "☐ Temperatura Baixa";
+      elemento.innerText = "| | Temperatura Baixa";
       elemento.style.textDecoration = "line-through";
     }
     if (temp[1] == 3) {
@@ -81,10 +81,10 @@ function mudarEvidencia(e) {
   if (e == "dots") {
     dots[1] += 1;
     if (dots[1] == 1) {
-      elemento.innerText = "☒ D.O.T.S";
+      elemento.innerText = "|x| D.O.T.S";
     }
     if (dots[1] == 2) {
-      elemento.innerText = "☐ D.O.T.S";
+      elemento.innerText = "| | D.O.T.S";
       elemento.style.textDecoration = "line-through";
     }
     if (dots[1] == 3) {
@@ -95,10 +95,10 @@ function mudarEvidencia(e) {
   if (e == "spirit") {
     spirit[1] += 1;
     if (spirit[1] == 1) {
-      elemento.innerText = "☒ Spirit Box";
+      elemento.innerText = "|x| Spirit Box";
     }
     if (spirit[1] == 2) {
-      elemento.innerText = "☐ Spirit Box";
+      elemento.innerText = "| | Spirit Box";
       elemento.style.textDecoration = "line-through";
     }
     if (spirit[1] == 3) {

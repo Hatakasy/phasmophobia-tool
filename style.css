@@ -141,18 +141,12 @@ nav p {
 
   .inside-bar {
     padding: 30px;
-    overflow: auto;
-  }
-
-  .sidebar-info p {
-    font-size: 25px;
+    height: 90%;
+    overflow-x: scroll;
   }
 
   #fechar-btn {
-    position: absolute;
-    width: 100%;
-    padding: 0;
-    bottom: 0;
+    width: 80%;
   }
 }
 
@@ -180,15 +174,17 @@ nav p {
     height: 100vh;
     padding: 0;
     margin: 0;
+    font-size: 30px;
   }
 
   .inside-bar {
     padding: 30px;
-    overflow: auto;
+    height: 90%;
+    overflow-x: scroll;
   }
 
-  .sidebar-info p {
-    font-size: 25px;
+  #fechar-btn {
+    width: 80%;
   }
 }
 

@@ -56,7 +56,7 @@ nav p {
 
 .item:hover {
   transition-duration: 0.3s;
-  background-color: rgba(39, 39, 39, 0.349);
+  background-color: rgba(255, 255, 255, 0.349);
   box-shadow: rgba(0, 0, 0, 0.61) 0px 5px 15px;
 }
 
@@ -89,7 +89,7 @@ nav p {
 
 .sidebar-info {
   width: 50%;
-  height: 80vh;
+  height: fit-content;
   margin: auto;
   background-image: url("./img/papel_amassado.jpg");
   background-repeat: no-repeat;
@@ -103,11 +103,6 @@ nav p {
   font-size: 50px;
   margin: 0;
   border-bottom: 1px solid;
-}
-
-.testando {
-  height: 600px;
-  overflow: auto;
 }
 
 #fechar-btn {
@@ -138,12 +133,26 @@ nav p {
   }
 
   .sidebar-info {
+    padding: 0;
+    margin: 0;
     width: 100vw;
     height: 100vh;
   }
 
+  .inside-bar {
+    padding: 30px;
+    overflow: auto;
+  }
+
   .sidebar-info p {
-    font-size: 20px;
+    font-size: 25px;
+  }
+
+  #fechar-btn {
+    position: absolute;
+    width: 100%;
+    padding: 0;
+    bottom: 0;
   }
 }
 
@@ -167,12 +176,19 @@ nav p {
   }
 
   .sidebar-info {
-    width: 60%;
-    margin: 2% auto;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+  }
+
+  .inside-bar {
+    padding: 30px;
+    overflow: auto;
   }
 
   .sidebar-info p {
-    font-size: 20px;
+    font-size: 25px;
   }
 }
 
@@ -188,6 +204,16 @@ nav p {
   }
   .evidencia {
     width: 45%;
+  }
+
+  .sidebar-info {
+    width: 60%;
+    height: 85vh;
+    margin: 2% auto;
+  }
+
+  .sidebar-info p {
+    font-size: 20px;
   }
 
   .item {

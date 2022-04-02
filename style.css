@@ -142,7 +142,12 @@ nav p {
   .inside-bar {
     padding: 30px;
     height: 90%;
-    overflow-x: scroll;
+    overflow-y: auto;
+  }
+
+  .inside-bar p,
+  h3 {
+    font-size: 30px;
   }
 
   #fechar-btn {
@@ -180,7 +185,12 @@ nav p {
   .inside-bar {
     padding: 30px;
     height: 90%;
-    overflow-x: scroll;
+    overflow-y: auto;
+  }
+
+  .inside-bar p,
+  h3 {
+    font-size: 30px;
   }
 
   #fechar-btn {

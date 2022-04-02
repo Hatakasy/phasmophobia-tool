@@ -132,7 +132,7 @@ function alterarFantasmas(e) {
         i.style.color = "black";
         i.style.textDecoration = "none";
       } else {
-        i.style.color = "rgb(190, 167, 122)";
+        i.style.color = "rgba(0, 0, 0, 0.250)";
         i.style.textDecoration = "line-through";
       }
     }
@@ -144,7 +144,7 @@ function alterarFantasmas(e) {
         i.style.color = "black";
         i.style.textDecoration = "none";
       } else {
-        i.style.color = "rgb(190, 167, 122)";
+        i.style.color = "rgba(0, 0, 0, 0.250)";
         i.style.textDecoration = "line-through";
       }
     }
@@ -161,13 +161,13 @@ function alterarFantasmas(e) {
         i.style.color = "black";
         i.style.textDecoration = "none";
       } else {
-        i.style.color = "rgb(190, 167, 122)";
+        i.style.color = "rgba(0, 0, 0, 0.250)";
         i.style.textDecoration = "line-through";
       }
     }
   } else if (evidencias_marcadas.length >= 4) {
     for (let i of items) {
-      i.style.color = "rgb(190, 167, 122)";
+      i.style.color = "rgba(0, 0, 0, 0.250)";
       i.style.textDecoration = "line-through";
     }
   } else {
@@ -181,7 +181,7 @@ function alterarFantasmas(e) {
     evidencias_riscadas.forEach((e) => {
       for (let i of items) {
         if (i.classList.contains(e)) {
-          i.style.color = "rgb(190, 167, 122)";
+          i.style.color = "rgba(0, 0, 0, 0.250)";
           i.style.textDecoration = "line-through";
         }
       }

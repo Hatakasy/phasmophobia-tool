@@ -90,7 +90,7 @@ nav p {
 .sidebar-info {
   height: fit-content;
   width: 50%;
-  margin: 10% auto auto auto;
+  margin: 40% auto auto auto;
   background-image: url("./img/papel_amassado.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -135,7 +135,7 @@ nav p {
   .sidebar-info {
     width: 80%;
     height: fit-content;
-    margin: 2% auto;
+    margin: 10% auto;
   }
 
   .sidebar-info p {
@@ -165,11 +165,11 @@ nav p {
   .sidebar-info {
     width: 60%;
     height: fit-content;
-    margin: 2% auto;
+    margin: 5% auto;
   }
 
   .sidebar-info p {
-    font-size: 20px;
+    font-size: 30px;
   }
 }
 

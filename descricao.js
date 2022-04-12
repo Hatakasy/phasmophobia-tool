@@ -20,6 +20,9 @@ function mostrarDescricao(e) {
     document.getElementById("fant-evidencias").innerHTML =
       "Spirit Box <br> Impressões digitais <br>Escrita Fantasma";
 
+    document.getElementById("fant-evidencias2").innerHTML =
+      "Incenso fará com que pare de atacar por 3 minutos.";
+
     document.getElementsByClassName("sidebar")[0].style.right = "0";
   }
   if (e == "wraith") {
@@ -37,6 +40,9 @@ function mostrarDescricao(e) {
     // EVIDENCIA
     document.getElementById("fant-evidencias").innerHTML =
       "EMF 5 <br> Spirit Box <br>D.O.T.S";
+
+    document.getElementById("fant-evidencias2").innerHTML =
+      "Não deixará pegadas UV quando pisar no sal. <br> Pode ficar mais ativo após pisar no sal.";
 
     document.getElementsByClassName("sidebar")[0].style.right = "0";
   }
@@ -56,6 +62,9 @@ function mostrarDescricao(e) {
     document.getElementById("fant-evidencias").innerHTML =
       "Impressões Digitais <br> Spirit Box <br>D.O.T.S";
 
+    document.getElementById("fant-evidencias2").innerHTML =
+      "Tirar uma foto fará com que desapareça (exceto durante a caça).";
+
     document.getElementsByClassName("sidebar")[0].style.right = "0";
   }
   if (e == "poltergeist") {
@@ -73,6 +82,9 @@ function mostrarDescricao(e) {
     // EVIDENCIA
     document.getElementById("fant-evidencias").innerHTML =
       "Impressões Digitais <br> Spirit Box <br>Escrita Fantasma";
+
+    document.getElementById("fant-evidencias2").innerHTML =
+      "Cada objeto arremessado faz o jogador perder 2% de sanidade.";
 
     document.getElementsByClassName("sidebar")[0].style.right = "0";
   }
@@ -92,6 +104,9 @@ function mostrarDescricao(e) {
     document.getElementById("fant-evidencias").innerHTML =
       "Impressões Digitais <br> Orbe Fantasma <br>D.O.T.S";
 
+    document.getElementById("fant-evidencias2").innerHTML =
+      "Pode-se ouvir um som diferente no microfone parabólico. <br> Preferência por eventos com canções.";
+
     document.getElementsByClassName("sidebar")[0].style.right = "0";
   }
   if (e == "jinn") {
@@ -109,6 +124,9 @@ function mostrarDescricao(e) {
     // EVIDENCIA
     document.getElementById("fant-evidencias").innerHTML =
       "EMF 5 <br> Impressões Digitais <br>Temperatura Baixa";
+
+    document.getElementById("fant-evidencias2").innerHTML =
+      "Não desligará o gerador (exceto se muitas luzes forem acesas).<br> Pode diminuir a sanidade de todos em um alcance de 3 metros em 25%.";
 
     document.getElementsByClassName("sidebar")[0].style.right = "0";
   }
@@ -128,6 +146,9 @@ function mostrarDescricao(e) {
     document.getElementById("fant-evidencias").innerHTML =
       "Spirit Box<br> Orbe Fantasma <br>Escrita Fantasma";
 
+    document.getElementById("fant-evidencias2").innerHTML =
+      "Nunca ligará as luzes. <br> Preferência por eventos com luz(Luz vermelha e estourar).";
+
     document.getElementsByClassName("sidebar")[0].style.right = "0";
   }
   if (e == "revenant") {
@@ -145,6 +166,8 @@ function mostrarDescricao(e) {
     // EVIDENCIA
     document.getElementById("fant-evidencias").innerHTML =
       "Orbe Fantasma <br> Escrita Fantasma <br>Temperatura Baixa";
+
+    document.getElementById("fant-evidencias2").innerHTML = "Nenhuma.";
 
     document.getElementsByClassName("sidebar")[0].style.right = "0";
   }
@@ -164,6 +187,9 @@ function mostrarDescricao(e) {
     document.getElementById("fant-evidencias").innerHTML =
       "EMF 5 <br> Escrita Fantasma <br>Temperatura Baixa";
 
+    document.getElementById("fant-evidencias2").innerHTML =
+      "Pouca chance de eventos e caças se mais de um jogador estiver no mesmo quarto ou próximo.";
+
     document.getElementsByClassName("sidebar")[0].style.right = "0";
   }
   if (e == "demon") {
@@ -181,6 +207,9 @@ function mostrarDescricao(e) {
     // EVIDENCIA
     document.getElementById("fant-evidencias").innerHTML =
       "Impressão Digital <br> Escrita Fantasma <br>Temperatura Baixa";
+
+    document.getElementById("fant-evidencias2").innerHTML =
+      "Perderá menos sanidade quando utilizando um Ouija. <br> Pequena chance de iniciar uma caçada independente da sanidade.";
 
     document.getElementsByClassName("sidebar")[0].style.right = "0";
   }
@@ -200,6 +229,9 @@ function mostrarDescricao(e) {
     document.getElementById("fant-evidencias").innerHTML =
       "Orbe Fantasma <br> Temperatura Baixa <br>D.O.T.S";
 
+    document.getElementById("fant-evidencias2").innerHTML =
+      "Usar o incenso fará com que fique no quarto por 1.5 minutos. <br> Pode fechar portas aleatóriamente sem realizar eventos fantasmas.";
+
     document.getElementsByClassName("sidebar")[0].style.right = "0";
   }
   if (e == "oni") {
@@ -217,6 +249,9 @@ function mostrarDescricao(e) {
     // EVIDENCIA
     document.getElementById("fant-evidencias").innerHTML =
       "EMF 5 <br> Temperatura Baixa <br>D.O.T.S";
+
+    document.getElementById("fant-evidencias2").innerHTML =
+      "Chance de arremessar objetos com mais força, os fazendo ir mais longe. <br> Será mais ativo se houver mais pessoas próximas.";
 
     document.getElementsByClassName("sidebar")[0].style.right = "0";
   }
@@ -236,6 +271,9 @@ function mostrarDescricao(e) {
     document.getElementById("fant-evidencias").innerHTML =
       "Spirit Box <br> Orbe Fantasma <br>D.O.T.S";
 
+    document.getElementById("fant-evidencias2").innerHTML =
+      "Em uma caçada, só pode ser ouvido a uma distância menor que 2 metros.";
+
     document.getElementsByClassName("sidebar")[0].style.right = "0";
   }
   if (e == "hantu") {
@@ -253,6 +291,9 @@ function mostrarDescricao(e) {
     // EVIDENCIA
     document.getElementById("fant-evidencias").innerHTML =
       "Impressão Digital <br> Orbe Fantasma <br>Temperatura Baixa";
+
+    document.getElementById("fant-evidencias2").innerHTML =
+      "Nunca ligará o gerador. <br> É possível ver a fumaça saindo de sua boca em baixas temperaturas durante o ataque.";
 
     document.getElementsByClassName("sidebar")[0].style.right = "0";
   }
@@ -272,6 +313,9 @@ function mostrarDescricao(e) {
     document.getElementById("fant-evidencias").innerHTML =
       "EMF 5 <br> Impressão Digital <br>D.O.T.S";
 
+    document.getElementById("fant-evidencias2").innerHTML =
+      "Certeza de D.O.T.S no modo pesadelo. <br> Menos chance de ficar vagando pelo local.";
+
     document.getElementsByClassName("sidebar")[0].style.right = "0";
   }
   if (e == "myling") {
@@ -289,6 +333,9 @@ function mostrarDescricao(e) {
     // EVIDENCIA
     document.getElementById("fant-evidencias").innerHTML =
       "EMF 5 <br> Impressão Digital <br>Escrita Fantasma";
+
+    document.getElementById("fant-evidencias2").innerHTML =
+      "Durante a caçada os passos só podem ser ouvidos a menos de 10 metros. <br> Faz sons no microfone parabólico.";
 
     document.getElementsByClassName("sidebar")[0].style.right = "0";
   }
@@ -308,6 +355,9 @@ function mostrarDescricao(e) {
     document.getElementById("fant-evidencias").innerHTML =
       "Spirit Box <br> Orbe Fantasma <br>Temperatura Baixa";
 
+    document.getElementById("fant-evidencias2").innerHTML =
+      "Pode iniciar uma caçada quando alguma chama for extinguida. <br> Velas acesas funcionam como crucifixos e apagarão caso bloqueiem um ataque.";
+
     document.getElementsByClassName("sidebar")[0].style.right = "0";
   }
   if (e == "twins") {
@@ -325,6 +375,9 @@ function mostrarDescricao(e) {
     // EVIDENCIA
     document.getElementById("fant-evidencias").innerHTML =
       "EMF 5 <br> Spirit Box <br>Temperatura Baixa";
+
+    document.getElementById("fant-evidencias2").innerHTML =
+      "1° Gêmeo fica no quarto do fantasma, cria temperatura baixa e responde Spirit Box. <br> 2° Gêmeo vaga pelos quartos interagindo com ambiente e não interagirá com sensor de proximidade e Spirit Box.<br>Crucifixo só irá checar o 1° Gêmeo, independente de qua";
 
     document.getElementsByClassName("sidebar")[0].style.right = "0";
   }
@@ -344,6 +397,9 @@ function mostrarDescricao(e) {
     document.getElementById("fant-evidencias").innerHTML =
       "EMF 5 <br> Orbe Fantasma <br>D.O.T.S";
 
+    document.getElementById("fant-evidencias2").innerHTML =
+      "Habilidade só funciona com equipamentos dos jogadores (exceto Câmera de cabeça e sensores de movimento/som) e não com objetos do mapa como TVs ou luzes.";
+
     document.getElementsByClassName("sidebar")[0].style.right = "0";
   }
   if (e == "obake") {
@@ -362,6 +418,9 @@ function mostrarDescricao(e) {
     document.getElementById("fant-evidencias").innerHTML =
       "EMF 5 <br> Impressão Digital <br>Orbe Fantasma";
 
+    document.getElementById("fant-evidencias2").innerHTML =
+      "75% de chance de deixar uma impressão digital. <br>Pequena chance de deixar uma impressão de 6 dedos. <br> Impressões podem desaparecer mais rápido que outros fantasmas.";
+
     document.getElementsByClassName("sidebar")[0].style.right = "0";
   }
   if (e == "mimic") {
@@ -379,6 +438,9 @@ function mostrarDescricao(e) {
     // EVIDENCIA
     document.getElementById("fant-evidencias").innerHTML =
       "Spirit Box <br> Impressão Digital <br>Temperatura Baixa";
+
+    document.getElementById("fant-evidencias2").innerHTML =
+      "Imita ações de outros fantasmas. <br>Copia quase todas as habilidades e comportamentos do fantasma imitado.";
 
     document.getElementsByClassName("sidebar")[0].style.right = "0";
   }

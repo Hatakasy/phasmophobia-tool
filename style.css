@@ -153,8 +153,7 @@ nav p {
     overflow-y: auto;
   }
 
-  .inside-bar p,
-  h3 {
+  .inside-bar p {
     font-size: 30px;
   }
 

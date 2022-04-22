@@ -377,7 +377,7 @@ function mostrarDescricao(e) {
       "EMF 5 <br> Spirit Box <br>Temperatura Baixa";
 
     document.getElementById("fant-evidencias2").innerHTML =
-      "1° Gêmeo fica no quarto do fantasma, cria temperatura baixa e responde Spirit Box. <br> 2° Gêmeo vaga pelos quartos interagindo com ambiente e não interagirá com sensor de proximidade e Spirit Box.<br>Crucifixo só irá checar o 1° Gêmeo, independente de qua";
+      "1° Gêmeo fica no quarto do fantasma, cria temperatura baixa e responde Spirit Box. <br> 2° Gêmeo vaga pelos quartos interagindo com ambiente e não interagirá com sensor de proximidade e Spirit Box.<br>Crucifixo só irá checar o 1° Gêmeo, independente de qual vá iniciar uma caçada.";
 
     document.getElementsByClassName("sidebar")[0].style.right = "0";
   }

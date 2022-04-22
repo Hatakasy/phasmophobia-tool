@@ -19,16 +19,22 @@ body {
 
 nav {
   width: 100%;
-  margin: 20px;
   background-color: rgb(63, 63, 63);
   color: white;
   margin: 0;
-  padding: 20px 0px 20px 0px;
+  height: fit-content;
+  padding: 10px;
+}
+
+nav img {
+  object-fit: contain;
+  height: 25px;
 }
 
 nav p {
-  font-size: 20px;
-  margin: 0;
+  font-size: 25px;
+  display: inline;
+  width: 10%;
   margin-left: 30px;
 }
 
@@ -152,9 +158,13 @@ nav p {
     height: 90%;
     overflow-y: auto;
   }
+  
+  .inside-bar h3 {
+    font-size: 30px;
+  }
 
   .inside-bar p {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   #fechar-btn {
@@ -194,10 +204,13 @@ nav p {
     height: 90%;
     overflow-y: auto;
   }
-
-  .inside-bar p,
-  h3 {
+  
+  .inside-bar h3 {
     font-size: 30px;
+  }
+
+  .inside-bar p {
+    font-size: 20px;
   }
 
   #fechar-btn {

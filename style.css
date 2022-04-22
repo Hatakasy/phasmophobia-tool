@@ -185,14 +185,14 @@ h3 {
   }
 
   .journal {
-    width: 70%;
+    width: 95%;
     margin: auto;
   }
 
   .evidencia {
     width: 80%;
     font-size: 30px;
-    margin: 25px 0px;
+    margin: 15px 0px;
   }
 
   .fantasmas {
@@ -231,11 +231,12 @@ h3 {
   }
 
   #fechar-btn {
+    margin-top: 30px;
     width: 80%;
   }
 
   #fechar-btn p {
-    font-size: 30px;
+    font-size: 50px;
   }
 }
 
@@ -275,6 +276,10 @@ h3 {
 
   .item {
     width: 30%;
+    font-size: 20px;
+  }
+
+  #fechar-btn p {
     font-size: 20px;
   }
 

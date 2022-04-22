@@ -111,7 +111,8 @@ nav p {
   border-bottom: 1px solid;
 }
 
-.sidebar-info p, h3 {
+.sidebar-info p,
+h3 {
   margin: 0 0 15px 0;
 }
 
@@ -129,7 +130,6 @@ nav p {
 
 @media only screen and (max-width: 700px) {
   * {
-    font-size: 25px;
     -webkit-tap-highlight-color: transparent;
   }
 
@@ -140,10 +140,13 @@ nav p {
 
   .evidencia {
     width: 100%;
+    font-size: 25px;
+    margin: 15px 0px;
   }
 
   .item {
     width: 100%;
+    font-size: 25px;
   }
 
   .sidebar-info {
@@ -158,7 +161,7 @@ nav p {
     height: 90%;
     overflow-y: auto;
   }
-  
+
   .inside-bar h3 {
     font-size: 30px;
   }
@@ -170,11 +173,14 @@ nav p {
   #fechar-btn {
     width: 80%;
   }
+
+  #fechar-btn p {
+    font-size: 30px;
+  }
 }
 
 @media only screen and (min-width: 700px) {
   * {
-    font-size: 25px;
     -webkit-tap-highlight-color: transparent;
   }
 
@@ -185,10 +191,17 @@ nav p {
 
   .evidencia {
     width: 80%;
+    font-size: 30px;
+    margin: 25px 0px;
+  }
+
+  .fantasmas {
+    margin-top: 20px;
   }
 
   .item {
     width: 45%;
+    font-size: 35px;
   }
 
   .sidebar-info {
@@ -204,23 +217,30 @@ nav p {
     height: 90%;
     overflow-y: auto;
   }
-  
+
+  .inside-bar h1 {
+    font-size: 60px;
+  }
+
   .inside-bar h3 {
-    font-size: 30px;
+    font-size: 40px;
   }
 
   .inside-bar p {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   #fechar-btn {
     width: 80%;
   }
+
+  #fechar-btn p {
+    font-size: 30px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
   * {
-    font-size: 20px;
     -webkit-tap-highlight-color: transparent;
   }
 
@@ -228,8 +248,11 @@ nav p {
     width: 50%;
     margin: auto;
   }
+
   .evidencia {
     width: 45%;
+    font-size: 20px;
+    margin: 10px;
   }
 
   .sidebar-info {
@@ -238,11 +261,24 @@ nav p {
     margin: 2% auto;
   }
 
-  .sidebar-info p {
+  .inside-bar h1 {
+    font-size: 50px;
+  }
+
+  .inside-bar h3 {
+    font-size: 30px;
+  }
+
+  .inside-bar p {
     font-size: 20px;
   }
 
   .item {
     width: 30%;
+    font-size: 20px;
+  }
+
+  #fechar-btn p {
+    font-size: 20px;
   }
 }

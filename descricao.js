@@ -444,4 +444,67 @@ function mostrarDescricao(e) {
 
     document.getElementsByClassName("sidebar")[0].style.right = "0";
   }
+  if (e == "moroi") {
+    // NOME
+    document.getElementById("fant-nome").innerHTML = "Moroi";
+    // DESCRIÇÃO
+    document.getElementById("fant-descricao").innerHTML =
+      "Ressucitado de sua cova para roubar energia dos vivos. Conhecido por amaldiçoar suas vítimas.";
+    // FORÇA
+    document.getElementById("fant-fortes").innerHTML =
+      "Quanto mais fraca sua vítima, mais forte e rápido ficará.";
+    // FRAQUEZA
+    document.getElementById("fant-fraquezas").innerHTML =
+      "Sofre de hiperosmia (olfato apurado), o enfraquecendo por longos períodos.";
+    // EVIDENCIA
+    document.getElementById("fant-evidencias").innerHTML =
+      "Spirit Box <br> Escrita Fantasma <br>Temperatura Baixa";
+
+    document.getElementById("fant-evidencias2").innerHTML =
+      "Amaldiçoa quem receber uma resposta pelo Spirit Box. <br> O amaldiçoado perde 0.3%/s enquanto estiver dentro da casa. <br> Tomar pílula de sanidade acaba com a maldição.";
+
+    document.getElementsByClassName("sidebar")[0].style.right = "0";
+  }
+  if (e == "deogen") {
+    // NOME
+    document.getElementById("fant-nome").innerHTML = "Deogen";
+    // DESCRIÇÃO
+    document.getElementById("fant-descricao").innerHTML =
+      "As vezes cercado por uma névoa inacabável, vem iludindo caçadores por anos. <br> Relatado ser capaz de encontrar até mesmo a vítima mais bem escondida, depois de persegui-la até a exaustão.";
+    // FORÇA
+    document.getElementById("fant-fortes").innerHTML =
+      "Sente constantemente os 'vivos', você pode correr, mas não pode se esconder.";
+    // FRAQUEZA
+    document.getElementById("fant-fraquezas").innerHTML =
+      "Requer muita energia para se materializar e se moverá lentamente quando próximo de sua vítima.";
+    // EVIDENCIA
+    document.getElementById("fant-evidencias").innerHTML =
+      "Spirit Box <br> Escrita Fantasma <br> D.O.T.S";
+
+    document.getElementById("fant-evidencias2").innerHTML =
+      "Só inicia uma caçada se a sanidade média for abaixo de 40%. <br> Ficará muito lento se estiver a menos de 4 metros de distância de seu alvo. <br> Faz uma interação única no Spirit Box: Respiração Pesada (precisa estar na exata posição do fantasma).";
+
+    document.getElementsByClassName("sidebar")[0].style.right = "0";
+  }
+  if (e == "thaye") {
+    // NOME
+    document.getElementById("fant-nome").innerHTML = "Thaye";
+    // DESCRIÇÃO
+    document.getElementById("fant-descricao").innerHTML =
+      "Conhecido por envelhecer com o tempo, mesmo após a vida. Aparentemente, parece envelhecer mais rapidamente quando próximo de seres vivos.";
+    // FORÇA
+    document.getElementById("fant-fortes").innerHTML =
+      "Quando entrarem no local, Thaey se tornará ativo, defensivo e ágil.";
+    // FRAQUEZA
+    document.getElementById("fant-fraquezas").innerHTML =
+      "Se enfraquecerá com o tempo, se tornando mais fraco, lento e menos agressivo.";
+    // EVIDENCIA
+    document.getElementById("fant-evidencias").innerHTML =
+      "Orbe Fantasma <br> Escrita Fantasma <br> D.O.T.S";
+
+    document.getElementById("fant-evidencias2").innerHTML =
+      "Pode iniciar uma caçada com sanidade média de 70%. <br> Em sua 'idade' mais avançada, só iniciará uma caçada se a sanidade média for menor que 15%. Fica menos ativo e mais lento a medida que envelhece.";
+
+    document.getElementsByClassName("sidebar")[0].style.right = "0";
+  }
 }

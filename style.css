@@ -175,6 +175,16 @@ h3 {
     -webkit-tap-highlight-color: transparent;
   }
 
+  #div-1 {
+    width: 90%;
+    margin: auto;
+  }
+
+  #div-2 {
+    width: 90%;
+    margin: auto;
+  }
+
   .journal {
     width: 80%;
     margin: auto;
@@ -234,7 +244,7 @@ h3 {
   .creditos {
   font-size: 30px;
   }
-  
+
   .evidencia {
     width: 80%;
     font-size: 30px;

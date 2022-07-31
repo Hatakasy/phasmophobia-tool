@@ -167,7 +167,8 @@ function mostrarDescricao(e) {
     document.getElementById("fant-evidencias").innerHTML =
       "Orbe Fantasma <br> Escrita Fantasma <br>Temperatura Baixa";
 
-    document.getElementById("fant-evidencias2").innerHTML = "Nenhuma.";
+    document.getElementById("fant-evidencias2").innerHTML =
+      "Ficará 2x mais rápido quando estiver vendo um jogador. <br>Terá metade da velocidade padrão quando ninguém estiver a vista.";
 
     document.getElementsByClassName("sidebar")[0].style.right = "0";
   }
